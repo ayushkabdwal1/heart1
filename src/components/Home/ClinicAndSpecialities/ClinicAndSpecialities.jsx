@@ -24,7 +24,7 @@ const ClinicAndSpecialities = () => {
 									<img src={img1} className="img-fluid" alt="" />
 									<span><i><FaCheckDouble/></i></span>
 								</div>
-								<p>Urology</p>
+								<p>CardioLogist</p>
 							</div>
 							<div className="speicality-item text-center">
 								<div className="speicality-img">

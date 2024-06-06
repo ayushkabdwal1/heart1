@@ -19,7 +19,7 @@ const SearchContent = ({ data }) => {
                     <div className="doc-info">
                         <h5 className='mb-0'><Link to={`/doctors/profile/${data?.id}`}>Dr. {data?.firstName + ' ' + data?.lastName}</Link></h5>
                         <p className='m-0 form-text'>{data?.designation}</p>
-                        <p className="doc-department m-0"><img src={showImg} className="img-fluid" alt="Speciality" />Urology</p>
+                        {/* <p className="doc-department m-0"><img src={showImg} className="img-fluid" alt="Speciality" /></p> */}
 
                         <div className='d-flex align-items-center'>
                             <div>

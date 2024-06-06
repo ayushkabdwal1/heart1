@@ -100,7 +100,7 @@ const VerficationExpired = catchAsync(async (req: Request, res: Response) => {
 export const AuthController = {
     Login,
     VerifyUser,
-    Verified,
+     Verified,
     VerficationExpired,
     resetPassword,
     PasswordResetConfirm
