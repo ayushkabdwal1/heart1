@@ -13,6 +13,7 @@ const PersonalInformation = ({ handleChange, selectValue, setPatientId =() =>{} 
 
     useEffect(() =>{
         if(checked){
+            console.log('data',data.id);
             if(data.id){
                 setPatientId(data.id);
                 message.success("User Has Found !")

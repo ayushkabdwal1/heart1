@@ -36,7 +36,6 @@ const getDoctor = catchAsync(async (req: Request, res: Response) => {
     success: true,
     data: result,
   });
-  console.log("Result", result);
 });
 
 const deleteDoctor = catchAsync(async (req: Request, res: Response) => {
